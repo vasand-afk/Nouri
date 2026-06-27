@@ -17,7 +17,7 @@ import { useAuthStore } from '../../stores/authStore';
 import { useDiaryStore } from '../../stores/diaryStore';
 import { searchFoods, lookupBarcode, calculateNutrition } from '../../services/foodDatabase';
 import { recognizeFoodFromPhoto, parseFoodFromVoice } from '../../services/ai';
-import { Food, MealType } from '@nouri/shared/types';
+import { Food, MealType } from '../../types';
 import FoodResultCard from '../../components/diary/FoodResultCard';
 
 type LogMode = 'menu' | 'barcode' | 'camera_ai' | 'voice' | 'search';

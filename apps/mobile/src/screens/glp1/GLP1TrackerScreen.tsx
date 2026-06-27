@@ -11,7 +11,7 @@ import * as Notifications from 'expo-notifications';
 
 import { useAuthStore } from '../../stores/authStore';
 import { db } from '../../services/supabase';
-import { InjectionLog, SideEffectLog } from '@nouri/shared/types';
+import { InjectionLog, SideEffectLog } from '../../types';
 import SideEffectSlider from '../../components/glp1/SideEffectSlider';
 import InjectionCard from '../../components/glp1/InjectionCard';
 import ProteinGoalBanner from '../../components/glp1/ProteinGoalBanner';

@@ -12,7 +12,7 @@ import * as Haptics from 'expo-haptics';
 
 import { useAuthStore } from '../../stores/authStore';
 import { db, supabase } from '../../services/supabase';
-import { Post } from '@nouri/shared/types';
+import { Post } from '../../types';
 
 type FeedTab = 'following' | 'discover' | 'glp1' | 'groups';
 

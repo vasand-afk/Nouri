@@ -1,4 +1,4 @@
-import { Food } from '@nouri/shared/types';
+import { Food } from '../types';
 import { db } from './supabase';
 
 const USDA_BASE = 'https://api.nal.usda.gov/fdc/v1';

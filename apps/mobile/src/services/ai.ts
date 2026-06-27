@@ -1,5 +1,5 @@
 import Anthropic from '@anthropic-ai/sdk';
-import { DiaryEntry, DailySummary, Profile, NutritionSummary } from '@nouri/shared/types';
+import { DiaryEntry, DailySummary, Profile, NutritionSummary } from '../types';
 
 // Claude client runs via Supabase Edge Function to protect API key
 const EDGE_FUNCTION_BASE = `${process.env.EXPO_PUBLIC_SUPABASE_URL}/functions/v1`;

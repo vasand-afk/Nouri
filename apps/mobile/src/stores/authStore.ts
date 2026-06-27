@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { Session } from '@supabase/supabase-js';
 import { supabase, db } from '../services/supabase';
-import { Profile } from '@nouri/shared/types';
+import { Profile } from '../types';
 
 interface AuthState {
   session: Session | null;

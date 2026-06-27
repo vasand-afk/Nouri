@@ -10,7 +10,7 @@
  * through the app. Always call isPremium(profile) or useFeature(feature, profile).
  */
 
-import { Profile } from '@nouri/shared/types';
+import { Profile } from '../types';
 
 export const PREMIUM_ENABLED = false; // Flip to true when ready
 

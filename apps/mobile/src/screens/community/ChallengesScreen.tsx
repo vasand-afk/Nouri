@@ -12,7 +12,7 @@ import * as Haptics from 'expo-haptics';
 
 import { db } from '../../services/supabase';
 import { useAuthStore } from '../../stores/authStore';
-import { Challenge } from '@nouri/shared/types';
+import { Challenge } from '../../types';
 
 const CHALLENGE_COLORS: Record<string, [string, string]> = {
   protein_goal: ['#4CAF50', '#27A85F'],

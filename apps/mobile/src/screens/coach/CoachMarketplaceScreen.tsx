@@ -9,7 +9,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 
 import { db } from '../../services/supabase';
-import { CoachProfile } from '@nouri/shared/types';
+import { CoachProfile } from '../../types';
 
 const SPECIALTIES = [
   { key: 'all', label: 'All' },

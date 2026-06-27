@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { format } from 'date-fns';
-import { InjectionLog } from '@nouri/shared/types';
+import { InjectionLog } from '../../types';
 
 export default function InjectionCard({ injection }: { injection: InjectionLog }) {
   return (

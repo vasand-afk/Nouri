@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, TextInput } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { Food } from '@nouri/shared/types';
+import { Food } from '../../types';
 
 interface Props {
   food: Food | any;

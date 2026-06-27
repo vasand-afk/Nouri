@@ -15,7 +15,7 @@ import { useRouter } from 'expo-router';
 import * as Haptics from 'expo-haptics';
 
 import { useAuthStore } from '../../stores/authStore';
-import { calculateTargets } from '@nouri/shared/types';
+import { calculateTargets } from '../../types';
 
 const { width } = Dimensions.get('window');
 

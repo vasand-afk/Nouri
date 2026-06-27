@@ -11,7 +11,7 @@ import * as Haptics from 'expo-haptics';
 
 import { db } from '../../services/supabase';
 import { useAuthStore } from '../../stores/authStore';
-import { Recipe } from '@nouri/shared/types';
+import { Recipe } from '../../types';
 
 const TAGS = [
   { key: 'all', label: 'All' },

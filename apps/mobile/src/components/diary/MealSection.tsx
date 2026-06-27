@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { DiaryEntry, MealType } from '@nouri/shared/types';
+import { DiaryEntry, MealType } from '../../types';
 
 const MEAL_CONFIG: Record<MealType, { label: string; icon: any; color: string }> = {
   breakfast: { label: 'Breakfast', icon: 'sunny', color: '#FF9800' },

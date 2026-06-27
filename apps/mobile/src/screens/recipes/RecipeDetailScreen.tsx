@@ -13,7 +13,7 @@ import * as Haptics from 'expo-haptics';
 import { db } from '../../services/supabase';
 import { useAuthStore } from '../../stores/authStore';
 import { useDiaryStore } from '../../stores/diaryStore';
-import { Recipe } from '@nouri/shared/types';
+import { Recipe } from '../../types';
 
 export default function RecipeDetailScreen() {
   const router = useRouter();

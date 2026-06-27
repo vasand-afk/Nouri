@@ -12,7 +12,7 @@ import { useAuthStore } from '../../stores/authStore';
 import { useDiaryStore } from '../../stores/diaryStore';
 import { db } from '../../services/supabase';
 import { streamChatMessage } from '../../services/ai';
-import { AIMessage } from '@nouri/shared/types';
+import { AIMessage } from '../../types';
 import { format } from 'date-fns';
 
 const QUICK_PROMPTS = [

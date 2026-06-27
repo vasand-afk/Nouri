@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { format } from 'date-fns';
 import { db } from '../services/supabase';
-import { DiaryEntry, DailySummary, MealType } from '@nouri/shared/types';
+import { DiaryEntry, DailySummary, MealType } from '../types';
 import { calculateNutrition } from '../services/foodDatabase';
 
 interface DiaryState {

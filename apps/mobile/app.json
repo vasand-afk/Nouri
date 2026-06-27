@@ -12,17 +12,20 @@
       "resizeMode": "contain",
       "backgroundColor": "#1A6B3C"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.nouri.app",
+      "bundleIdentifier": "com.vasand.nouriapp",
       "buildNumber": "1",
       "infoPlist": {
         "NSCameraUsageDescription": "Nouri uses your camera to identify foods from photos and scan barcodes.",
         "NSMicrophoneUsageDescription": "Nouri uses your microphone for voice food logging.",
         "NSHealthShareUsageDescription": "Nouri reads health data to sync your weight, steps, and workouts.",
         "NSHealthUpdateUsageDescription": "Nouri writes nutrition data to Apple Health.",
-        "NSPhotoLibraryUsageDescription": "Nouri accesses your photos to log meals from your camera roll."
+        "NSPhotoLibraryUsageDescription": "Nouri accesses your photos to log meals from your camera roll.",
+        "ITSAppUsesNonExemptEncryption": false
       },
       "entitlements": {
         "com.apple.developer.healthkit": true
@@ -36,12 +39,12 @@
       "package": "com.nouri.app",
       "versionCode": 1,
       "permissions": [
-        "CAMERA",
-        "RECORD_AUDIO",
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE",
-        "RECEIVE_BOOT_COMPLETED",
-        "VIBRATE"
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.VIBRATE"
       ]
     },
     "plugins": [
@@ -64,6 +67,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7b9ebba7-a061-44e9-af62-78941c871676"
+      }
+    },
+    "owner": "vasandesh"
   }
 }

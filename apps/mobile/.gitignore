@@ -4,3 +4,9 @@
 
 expo-env.d.ts
 # @end expo-cli
+
+# Native folders — let EAS/prebuild generate these fresh
+ios/Podfile
+ios/Pods/
+ios/build/
+android/
